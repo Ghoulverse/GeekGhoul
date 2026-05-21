@@ -52,6 +52,10 @@ export interface GhoulConfig {
     adaptation: string;
     stats: { label: string; value: string }[];
   };
+  marketSize: string;
+  traction: { label: string; value: string; status: 'complete' | 'in-progress' | 'upcoming' }[];
+  ipStatus: string;
+  roadmap: { phase: string; title: string; items: string[]; status: 'complete' | 'in-progress' | 'upcoming' }[];
 }
 
 export const config: GhoulConfig = {
@@ -267,4 +271,20 @@ export const config: GhoulConfig = {
       { label: "Biodegradability", value: "96%" },
     ],
   },
+
+  marketSize: "$250B global gaming peripherals & tech accessories market",
+  traction: [
+    { label: "Formulations", value: "9 Complete", status: "complete" },
+    { label: "Manufacturing", value: "Partners Secured", status: "complete" },
+    { label: "Trademark", value: "IP Australia — Accepted", status: "complete" },
+    { label: "Retail", value: "In Negotiation", status: "in-progress" },
+  ],
+  ipStatus: "Trademark accepted — Class 3 (cleaning products). Independent brand filing complete.",
+  roadmap: [
+    { phase: "Phase 1", title: "Brand Launch", items: ["6 sites live", "54 SKUs formulated", "GOO RUNNER game launched"], status: "complete" },
+    { phase: "Phase 2", title: "Retail Partnerships", items: ["JB Hi-Fi", "PLE Computers", "Scorptec"], status: "in-progress" },
+    { phase: "Phase 3", title: "International", items: ["US TM filing", "UK/EU expansion", "Amazon FBA launch"], status: "upcoming" },
+    { phase: "Phase 4", title: "Game Monetisation", items: ["In-app purchases", "Character skins", "NFT collectibles"], status: "upcoming" },
+    { phase: "Phase 5", title: "New Ghouls", items: ["Toddler Ghoul", "Scholar Ghoul", "2 mystery verticals"], status: "upcoming" },
+  ],
 };
