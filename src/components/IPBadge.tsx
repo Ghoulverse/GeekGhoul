@@ -33,9 +33,16 @@ export default function IPBadge() {
                 </div>
               </div>
               <p className="text-[#94a3b8] text-sm leading-relaxed mb-4">{config.ipStatus}</p>
-              <div className="flex items-center gap-2 text-[#00f0ff] text-xs">
-                <FileCheck className="w-4 h-4" />
-                <span>IP Australia — Class 3 (Cleaning Products)</span>
+              <div className="flex flex-wrap items-center gap-2">
+                {config.ipClasses.map((ipClass) => (
+                  <span
+                    key={ipClass}
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] text-xs"
+                  >
+                    <FileCheck className="w-3 h-3" />
+                    {ipClass}
+                  </span>
+                ))}
               </div>
             </div>
           </div>

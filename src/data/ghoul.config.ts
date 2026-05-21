@@ -55,6 +55,7 @@ export interface GhoulConfig {
   marketSize: string;
   traction: { label: string; value: string; status: 'complete' | 'in-progress' | 'upcoming' }[];
   ipStatus: string;
+  ipClasses: string[];
   roadmap: { phase: string; title: string; items: string[]; status: 'complete' | 'in-progress' | 'upcoming' }[];
 }
 
@@ -279,7 +280,13 @@ export const config: GhoulConfig = {
     { label: "Trademark", value: "IP Australia — Accepted", status: "complete" },
     { label: "Retail", value: "In Negotiation", status: "in-progress" },
   ],
-  ipStatus: "Trademark accepted — Class 3 (cleaning products). Independent brand filing complete.",
+  ipStatus: "Trademark filed — Class 9 (electronics & gaming peripherals), Class 28 (gaming accessories & toys) and Class 16 (tech accessories).",
+  ipClasses: [
+    "Class 9 — Electronics, gaming peripherals, computer accessories & software",
+    "Class 28 — Gaming accessories, toys, board games & playthings",
+    "Class 16 — Tech accessories, mouse pads, stationery & printed matter",
+    "Class 42 — Software development, game design & tech services",
+  ],
   roadmap: [
     { phase: "Phase 1", title: "Brand Launch", items: ["6 sites live", "54 SKUs formulated", "GOO RUNNER game launched"], status: "complete" },
     { phase: "Phase 2", title: "Retail Partnerships", items: ["JB Hi-Fi", "PLE Computers", "Scorptec"], status: "in-progress" },
