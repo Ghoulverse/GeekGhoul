@@ -323,7 +323,7 @@ export const config: GhoulConfig = {
     { label: "GHOULVERSE Game", value: "Live", status: "complete" },
     { label: "Brand Partnerships", value: "Seeking First Deals", status: "upcoming" },
   ],
-  ipStatus: "Trademark filed — Class 9 (electronics & gaming peripherals), Class 28 (gaming accessories & toys) and Class 16 (tech accessories).",
+  ipStatus: "Trademark classes identified — Class 9 (electronics & gaming peripherals), Class 28 (gaming accessories & toys) and Class 16 (tech accessories). Filing planned post-funding.",
   ipClasses: [
     "Class 9 — Electronics, gaming peripherals, computer accessories & software",
     "Class 28 — Gaming accessories, toys, board games & playthings",
