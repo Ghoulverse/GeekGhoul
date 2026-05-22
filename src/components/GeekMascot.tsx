@@ -119,7 +119,7 @@ export default function GeekMascot() {
         onMouseLeave={() => setIsHovered(false)}
       >
         <img
-          src="/ghoul_logo.png"
+          src="/ghoul_mascot.png"
           alt="GEEK GHOUL"
           className="w-full h-full object-contain"
           draggable={false}
