@@ -21,7 +21,6 @@ export default function GeekMascot() {
   const bitsRef = useRef<BinaryBit[]>([]);
   const rafRef = useRef<number>(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-
   // Glitch trigger on movement
   useEffect(() => {
     if (cursor.velocity > 3) {
@@ -95,7 +94,7 @@ export default function GeekMascot() {
     setTimeout(() => setClicked(false), 200);
   }, [cursor.x, cursor.y, spawnBits]);
 
-  const size = typeof window !== 'undefined' && window.innerWidth < 768 ? 100 : 140;
+  const size = typeof window !== 'undefined' && window.innerWidth < 768 ? 200 : 280;
   const glitchOffset = glitching ? (Math.random() - 0.5) * 6 : 0;
 
   return (
@@ -125,7 +124,7 @@ export default function GeekMascot() {
           draggable={false}
           style={{
             filter: isHovered
-              ? 'brightness(1.15) drop-shadow(0 0 20px rgba(0,212,255,0.5)) drop-shadow(0 0 40px rgba(0,255,65,0.3))'
+              ? 'brightness(1.15)'
               : undefined,
             transition: 'filter 0.3s ease',
           }}
