@@ -104,7 +104,7 @@ export default function GeekMascot() {
         className="fixed inset-0 pointer-events-none z-40"
       />
       <div
-        className="fixed z-30 cursor-pointer select-none"
+        className="fixed z-30 pointer-events-none cursor-default select-none"
         style={{
           left: cursor.x,
           top: cursor.y,
