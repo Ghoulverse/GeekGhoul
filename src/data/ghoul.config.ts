@@ -253,29 +253,29 @@ export const config: GhoulConfig = {
     {
       id: "googoo",
       name: "GOO GOO",
-      domain: "https://www.ghoulverse.com/ghouls/googoo/",
+      domain: "https://www.googooghoul.com",
       icon: "🍼",
       color: "#3b82f6",
       realm: "The Nursery",
-      live: false,
+      live: true,
     },
     {
       id: "kid",
       name: "KID GHOUL",
-      domain: "https://www.ghoulverse.com/ghouls/kid/",
+      domain: "https://www.kidghoul.com",
       icon: "🧒",
       color: "#ef4444",
       realm: "The Playground",
-      live: false,
+      live: true,
     },
     {
       id: "teen",
       name: "TEEN GHOUL",
-      domain: "https://www.ghoulverse.com/ghouls/teen/",
+      domain: "https://www.teenghoul.com",
       icon: "🎧",
       color: "#8b5cf6",
       realm: "The Hangout",
-      live: false,
+      live: true,
     },
     {
       id: "scholar",
@@ -298,9 +298,7 @@ export const config: GhoulConfig = {
   gameUrl: "https://www.ghoulverse.com/play/",
 
   social: {
-    twitter: "#",
-    instagram: "#",
-    youtube: "#",
+    // Social accounts launching Q2 2026 — follow @ghoulverse
   },
 
   science: {
@@ -318,7 +316,7 @@ export const config: GhoulConfig = {
 
   marketSize: "$250B global gaming peripherals & tech accessories market",
   traction: [
-    { label: "Character Websites", value: "6 Live", status: "complete" },
+    { label: "Character Websites", value: "10 Live", status: "complete" },
     { label: "GOO GHOUL™ Trademark", value: "IP Australia — Accepted", status: "complete" },
     { label: "GHOULVERSE Game", value: "Live", status: "complete" },
     { label: "Brand Partnerships", value: "Seeking First Deals", status: "upcoming" },
