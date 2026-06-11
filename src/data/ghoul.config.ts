@@ -290,7 +290,7 @@ export const config: GhoulConfig = {
 
   cta: {
     headline: "Investor Inquiries",
-    subheadline: "Join the GHOULVERSE portfolio. Request the full investor deck and financial projections for Geek Ghoul.",
+    subheadline: "Join the GHOULVERSE portfolio. Request the full investor deck and financial projections .",
     buttonText: "Request Deck",
     placeholderText: "Enter your email...",
   },
