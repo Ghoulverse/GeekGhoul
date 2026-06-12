@@ -69,9 +69,8 @@ export interface GhoulConfig {
 export const config: GhoulConfig = {
   id: "geek",
   name: "GEEK GHOUL",
-  tagline: "The Digital Sanitizer",
-  description:
-    "When the code compiles but the setup doesn't, GEEK GHOUL debugs your desk. No keyboard too greasy, no screen too smudged, no cable too dusty.",
+  tagline: "Optimise Everything",
+  description: "The gaming, tech, and electronics lifestyle vertical. GEEK GHOUL debugs your setup — then builds the accessories you actually need.",
   domain: "https://www.geekghoul.com",
   icon: "💻",
   isLeader: false,
@@ -279,7 +278,7 @@ export const config: GhoulConfig = {
     },
     {
       id: "scholar",
-      name: "SCHOLAR GHOUL",
+      name: "BOOK GHOUL",
       domain: "https://www.ghoulverse.com/ghouls/scholar/",
       icon: "📚",
       color: "#f97316",
@@ -305,7 +304,7 @@ export const config: GhoulConfig = {
     title: "The Source Code of Clean",
     subtitle: "Digital Dissolution Compound™",
     description: "Every GEEK GHOUL product is powered by Digital Dissolution Compound™ — a proprietary ionic surfactant complex engineered at the molecular level to break down tech-specific contaminants. Developed in the GHOULVERSE labs, this compound dissolves organic oils, synthetic adhesives, and electrostatic-bound dust without corroding plastics, metals, or silicon.",
-    adaptation: "For the digital realm, we engineered a low-conductivity, pH-neutral variant that targets sebum, thermal paste polymers, and display oleophobic coatings — the molecular signature of every well-used workstation.",
+    adaptation: "For the Mainframe, we engineer low-residue, plastic-safe solutions that protect sensitive electronics, RGB finishes, and gaming peripherals without compromising performance.",
     stats: [
       { label: "Conductivity", value: "< 0.1 μS/cm" },
       { label: "pH Neutrality", value: "7.0 ± 0.2" },
@@ -334,7 +333,7 @@ export const config: GhoulConfig = {
     { phase: "Phase 2", title: "Mascot Creation", items: ["24 professional mascots (2 per ghoul)", "$120K investment across 12 characters"], status: "upcoming" },
     { phase: "Phase 3", title: "Partnerships & Revenue", items: ["Sector sponsorships", "Affiliate deals", "Event appearances", "Influencer recruitment"], status: "upcoming" },
     { phase: "Phase 4", title: "Entertainment Scale", items: ["Animated series pilot", "Convention circuit", "Merchandise licensing"], status: "upcoming" },
-    { phase: "Phase 5", title: "Product Launch", items: ["GOO GHOUL household cleaners", "Vertical-specific product lines"], status: "upcoming" },
+    { phase: "Phase 5", title: "Product Launch", items: ["GOO GHOUL flagship household line", "Vertical-specific owned product lines"], status: "upcoming" },
   ],
 
   fundingAsk: "$250,000 AUD",
@@ -359,6 +358,6 @@ export const config: GhoulConfig = {
     { stream: "Licensing", description: "Character IP licensing to brands", timeline: "Year 2" },
     { stream: "Merchandise", description: "Royalties on plush, apparel, accessories", timeline: "Year 2" },
     { stream: "Animation", description: "YouTube/streaming ad revenue, distribution deals", timeline: "Year 2" },
-    { stream: "Products", description: "Owned product lines (GOO GHOUL cleaners first)", timeline: "Year 3" },
+    { stream: "Products", description: "Owned product lines launched per vertical, starting with GOO GHOUL", timeline: "Year 3" },
   ],
 };

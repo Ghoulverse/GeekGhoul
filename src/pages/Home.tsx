@@ -560,7 +560,7 @@ export default function Home() {
             <Gamepad2 className="w-14 h-14 text-[#00d4ff] mx-auto mb-6" style={{ filter: 'drop-shadow(0 0 15px rgba(0,212,255,0.5))' }} />
             <h2 className="font-mono text-4xl md:text-6xl text-white mb-4">PLAY GHOULVERSE</h2>
             <p className="text-[#94a3b8] max-w-lg mx-auto mb-8">
-              Pilot {config.name} through the Void. Battle bacteria, unlock all 8 ghouls, claim the leaderboard.
+              Pilot {config.name} through the Void. Race through the Void, unlock every ghoul, claim the leaderboard.
             </p>
             <a href={config.gameUrl} target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 font-mono text-sm tracking-wider uppercase text-[#0a0a1a] transition-all hover:scale-105"
